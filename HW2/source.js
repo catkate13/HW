@@ -25,8 +25,11 @@ let cities = ["Rome", "Lviv", "Warsaw"]; ;
 console.log(cities.join('*'))
 
 //Exercise 5
+var userAge=prompt('Скільки вам років?');
+if (userAge>=18&&userAge<=10) alert('Ви досягли повнолітнього віку');
+else alert('Ви ще занадто молоді')
 
-/*Exercise 7*/
+/*Exercise 6*/
 
 let a = Number (prompt(`Set first side value`)); 
 let b = Number (prompt(`Set second side value`)); 
@@ -54,3 +57,4 @@ else {
 console.log (`Not  right-angled triangle`)
 
 }
+
